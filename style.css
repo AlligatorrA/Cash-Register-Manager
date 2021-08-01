@@ -1,0 +1,82 @@
+*{
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: darkgray;
+    background-image: url("./bgMoney.jpg");
+    background-repeat:no-repeat;
+    
+    
+}
+div{
+    border-left : 1px solid rgb(0, 0, 3);
+    border-right: 1px solid rgb(0, 0, 3);
+    
+}
+
+.main{
+    text-align: center;
+    background: rgb(0, 0, 0);
+    margin: auto;
+
+}
+table {
+    width: 95%;
+    table-layout: fixed;
+    margin: 0rem 1rem;
+  }
+  table,
+  td,
+  th {
+    border: 2px solid rgb(0, 0, 0);
+    border-collapse: none;
+    border-spacing: 0rem;
+  }
+  .check-button{
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.2rem;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+  .cash-given {
+    width: 50%;
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+  }
+  .bill-amount {
+    width: 50%;
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+  }
+  #err-msg {
+      width: 50%;
+      text-align: center;
+      padding: 1rem;
+      margin-left: auto;
+      margin-right: auto;
+      border: 1px solid black ;
+      border-radius: 1rem;
+  }
+  table, label{
+      margin-top: 1rem;
+      margin-bottom: 1.5rem;
+     padding: 0.4rem;
+     
+  }
