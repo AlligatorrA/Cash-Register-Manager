@@ -1,23 +1,21 @@
-*{
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: darkgray;
-    background-image: url("./bgMoney.jpg");
+body{
+  
+    box-shadow: rgb(245, 243, 243);
+    background-color: black;
+    color: cyan;
     background-repeat:no-repeat;
     
     
 }
-div{
-    border-left : 1px solid rgb(0, 0, 3);
-    border-right: 1px solid rgb(0, 0, 3);
-    
-}
+
 
 .main{
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
     text-align: center;
     background: rgb(0, 0, 0);
-    margin: auto;
+    /* margin: auto; */
 
 }
 table {
@@ -28,7 +26,7 @@ table {
   table,
   td,
   th {
-    border: 2px solid rgb(0, 0, 0);
+    border: 2px solid cyan;
     border-collapse: none;
     border-spacing: 0rem;
   }
@@ -78,6 +76,17 @@ table {
       margin-top: 1rem;
       margin-bottom: 1.5rem;
       padding: 0.4rem;
-      border-radius: 1rem;
-     
+      border-radius: 1rem; 
+  }
+  ul{
+    margin: 1rem;
+    padding: 0.5rem;
+    list-style-type: none;
+    text-align: right;
+    color: var(--secondry-color);
+  }
+  a{
+    text-align: right;
+    color: var(--secondry-color);
+    font-weight: 900;
   }
